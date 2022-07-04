@@ -1,0 +1,11 @@
+prod_url = http://localhost:8605/v1/models/Potato/labels/prod:predict
+beta_url = http://localhost:8605/v1/models/Potato/labels/beta:predict
+
+function make_prediction() {
+	if (beta_user) {
+		// beta_url
+	}
+	if (prod_user) {
+		// prod_url
+	}
+}
